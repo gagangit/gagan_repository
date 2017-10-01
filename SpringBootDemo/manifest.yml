@@ -1,0 +1,9 @@
+---
+applications:
+- name: springbootdemo--77855
+  memory: 1024M
+  instances: 2
+  host: GagDemoService
+  domain: cfapps.io
+  buildpack: java_buildpack
+  
